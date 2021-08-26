@@ -3,7 +3,7 @@ Realiza consultas às cotações do dólar e euro para um período determinado. 
 
 <h2>Instalação</h2>
 
-└─$ docker build --tag ptax
+└─$ docker build --tag ptax .
 
 
 <h2>Como executar</h2>
