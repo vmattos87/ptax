@@ -1,3 +1,4 @@
+import sys
 from foo import query, save, usr_input
 
 
@@ -25,7 +26,10 @@ params = {'method': 'consultarBoletim',
 
 
 def main():
-    print('Consulta ao PTAX do Dólar e Euro\n')
+    print("Python version")
+    print(sys.version)
+
+    print('\nConsulta ao PTAX do Dólar e Euro\n')
     print('Após a consulta as cotações do Dólar e Euro serão salvas em arquivos .CSV\n\n')
 
     params['DATAINI'], params['DATAFIM'] = usr_input.get_date()
