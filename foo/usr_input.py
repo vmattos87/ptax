@@ -61,5 +61,5 @@ def get_date():
     return s_date, e_date
 
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     pass
